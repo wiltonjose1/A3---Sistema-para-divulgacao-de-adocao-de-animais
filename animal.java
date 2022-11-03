@@ -5,7 +5,7 @@ public class animal {
 
     private String idade;
 
-    private String raça;
+    private String raca;
 
     private String endereco;
 
@@ -34,6 +34,14 @@ public class animal {
 
 	public void setIdade(String idade) {
 		this.idade = idade;
+	}
+
+    public String getRaca() {
+		return raca;
+	}
+
+	public void setRaca(String raca) {
+		this.raca = raca;
 	}
 
     public int getTelefone() {
