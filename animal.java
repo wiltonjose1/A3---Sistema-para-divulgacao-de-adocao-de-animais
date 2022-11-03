@@ -20,11 +20,11 @@ public class animal {
 		this.id_animal = id_animal;
     }    
 
-    public String getNome() {
+    public String getEspecie() {
 		return especie;
 	}
 
-	public void setNome(String especie) {
+	public void setEspecie(String especie) {
 		this.especie = especie;
 	}
 
