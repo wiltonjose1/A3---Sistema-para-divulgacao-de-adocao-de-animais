@@ -1,3 +1,4 @@
-public class animal {
+
+public class adotante {
 
 }
