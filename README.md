@@ -1,7 +1,7 @@
 
 # Projeto A3 Sistema de divulgação e Adoção de Animais
 
-Esse projeto sera responsável por realizar divulgação de Animais que estao a procura de um novo dono. 
+Esse projeto sera responsável por realizar divulgação de Animais que estão a procura de um novo dono. 
 
 
 
