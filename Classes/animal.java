@@ -1,4 +1,4 @@
-public class animal {
+public class Animal {
     public int id_animal;
 
     private String especie;
