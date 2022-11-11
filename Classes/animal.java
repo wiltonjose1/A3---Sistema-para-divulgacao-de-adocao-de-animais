@@ -89,8 +89,8 @@ public class animal {
 		this.estahCastrado = estahCastrado;
 	}
 	
-	public void setDetalhes(String detalhes) {
-		this.detalhes = detalhes;
+	public String getDetalhes() {
+		return detalhes;
 	}
 	
 	public void setDetalhes(String detalhes) {
