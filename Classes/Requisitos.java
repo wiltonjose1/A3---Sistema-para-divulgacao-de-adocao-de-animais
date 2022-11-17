@@ -8,19 +8,45 @@
 
         private boolean concordanciaFamiliar;
 
-        public void idade (int idade){
-            idade += 21;
+        private String termoDeResponsabilidade;
+
+        public int getIdade(){
+            return idade;
         }
 
-        public void documentos (String documentos){
+        public void setIdade (int idade){
+           this.idade += 21;
+        }
+
+        public String getDocumentos(){
+            return documentos;
+        }
+
+        public void setDocumentos (String documentos){
             this.documentos = documentos;
         }
 
-        public void comprovanteResidencia (String comprovanteResidencia){
+        public String getComprovanteResidencia(){
+            return comprovanteResidencia;
+        }
+
+        public void setcomprovanteResidencia (String comprovanteResidencia){
             this.comprovanteResidencia = comprovanteResidencia;
         }
 
-        public void concordanciaFamiliar (boolean concordanciaFamiliar){
+        public boolean isConcordanciaFamiliar (){
+            return concordanciaFamiliar;
+        }
+
+        public void setConcordanciaFamiliar (boolean concordanciaFamiliar){
             this.concordanciaFamiliar = concordanciaFamiliar;
+        }
+
+        public String getTermoDeResponsabilidade(){
+            return termoDeResponsabilidade;
+        }
+
+        public void setTermoDeResponsabilidade (String termoDeResponsabilidade){
+            this.termoDeResponsabilidade = termoDeResponsabilidade;
         }
     }
