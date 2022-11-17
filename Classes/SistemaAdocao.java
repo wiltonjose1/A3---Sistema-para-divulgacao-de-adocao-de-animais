@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.swing.JOptionPane;
 
-public class ProgramaAdocaoAnimais {
+public class SistemaAdocao {
 	public static void main(String[] args) {
 		boolean sair = false;
 		while (!sair) {
