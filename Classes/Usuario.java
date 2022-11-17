@@ -9,12 +9,17 @@ public class Usuario {
     private String cpf;
 
     private String dataNascimento;
+	
+    private String login;
+	
+	
+	
 
     public String getNome() {
 		return nome;
 	}
 
-	    public String getEmail() {
+	public String getEmail() {
 		return email;
 	}
 
@@ -35,7 +40,7 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-    public String getCpf() {
+        public String getCpf() {
 		return cpf;
 	}
 
@@ -43,11 +48,19 @@ public class Usuario {
 		this.cpf = cpf;
 	}
 
-    public String getDataNascimeto() {
+        public String getDataNascimeto() {
 		return dataNascimento;
 	}
 
 	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+	
+	public String getLogin() {
+		return login;
+        }
+	
+	public void setlogin(String login){
+		this.login = login;
+	
 }
