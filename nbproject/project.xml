@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>projeto_A3</name>
+=======
+            <name>Sistema de adocao de animais</name>
+>>>>>>> 0c639140bec25af9ad622fd5e66822d830ec5301
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>
