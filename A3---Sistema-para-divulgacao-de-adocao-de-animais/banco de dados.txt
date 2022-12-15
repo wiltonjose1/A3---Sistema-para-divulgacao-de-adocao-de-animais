@@ -1,0 +1,26 @@
+CREATE database sistemaDeAdocao;
+USE sistemaDeAdocao;
+CREATE TABLE usuarios
+(
+	id int unsigned not null auto_increment,
+    nome varchar(10) not null,
+    senha varchar(15) not null,
+	email varchar(30) not null,
+    cpf varchar(11) not null,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE animais 
+(
+	id int unsigned not null auto_increment,
+    usuarios_id int unsigned default null,
+    especie varchar(45),
+    idade varchar(45) not null,
+    raca varchar (45) not null,
+    endereco varchar (45) not null,
+    telefone int not null,
+    cor varchar(45),
+    sexo varchar (45) not null,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_animais_usuarios foreign key(usuarios_id) REFERENCES usuarios (id)
+);
